@@ -10,9 +10,9 @@ from email.mime.multipart import MIMEMultipart
 def send_mail(name, mail, phone, address, blood_group, date, receiver_email={}):
     port = 587  # For starttls
     smtp_server = "smtp.gmail.com"
-    sender_email = "h.sarma212@gmail.com"
+    sender_email = "Your Gmail Account"
     receiver_email = receiver_email
-    password = "cezrvgcygmutsdoj"
+    password = "Your Password"
 
     message = MIMEMultipart("alternative")
     message["Subject"] = "multipart test"
