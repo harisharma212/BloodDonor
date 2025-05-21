@@ -7,7 +7,7 @@ import sys
 def main():
     """Run administrative tasks."""
     os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'BloodDonation.settings')
-    try:
+    try:n okfvgiobmgoi
         from django.core.management import execute_from_command_line
         print('hffffihhhhhkogkornkfbnpmbpotemhqpo')
     except ImportError as exc:
