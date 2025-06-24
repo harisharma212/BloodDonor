@@ -12,6 +12,7 @@ def send_mail(name, mail, phone, address, blood_group, date, receiver_email={}):
     Method to send an email
     Added one more commit
     TAG_1
+    TAG_2
     """
     port = 587  # For starttls
     smtp_server = "smtp.gmail.com"
