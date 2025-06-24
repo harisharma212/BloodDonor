@@ -8,6 +8,9 @@ from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 
 def send_mail(name, mail, phone, address, blood_group, date, receiver_email={}):
+    """
+    Method to send an email
+    """
     port = 587  # For starttls
     smtp_server = "smtp.gmail.com"
     sender_email = "Your Gmail Account"
